@@ -2,8 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { CounterStyle } from "../style/CounterStyle"
 
-const Counter = ({number, color, onIncrement, onDecrement, onSetColor}) => (
-    <CounterStyle onClick={onIncrement}
+const Counter = ({number, color, onInCrement, onDecrement, onSetColor}) => (
+    <CounterStyle onClick={onInCrement}
             onContextMenu={e => {
                 e.preventDefault();
                 onDecrement();
