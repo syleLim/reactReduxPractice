@@ -2,7 +2,7 @@ import Counter from "../component/Counter"
 import * as actions from "../action"
 import { connect } from 'react-redux'
 
-export function getRandColor () {
+export const getRandColor = () => {
     const color = [
         '#fffff',
         '#00000',
