@@ -8,7 +8,7 @@ npm install --save-dev prop-types
 npm install --save-dev styled-components
 
 # redux setting
-npm install --save-dev react-redux
+npm install --save-dev redux react-redux
 
 echo "const path = require('path')  
 const HtmlWebpackPlugin = require('html-webpack-plugin')
